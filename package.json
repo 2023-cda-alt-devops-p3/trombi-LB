@@ -1,7 +1,7 @@
 {
-  "name": "tr-lb",
+  "name": "trombi-lb",
   "version": "1.0.0",
-  "description": "",
+  "description": "trombi Lucas Michael",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./scss/main.scss:./css/style.css --style compressed"
