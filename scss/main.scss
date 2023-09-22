@@ -1,7 +1,84 @@
-.map {
-  width: 49%;
+html {
+  overflow: hidden;
+}
+.contener {
+  text-align: center;
+  .map {
+    width: 49%;
+  }
 }
 .ping {
+  width: 4%;
   position: absolute;
   z-index: 1;
+  transition: 0.5s;
+  &.lucas {   
+    bottom: 36%;
+    left: 60%;
+  }
+  &.michael {   
+    bottom: 19%;
+    left: 58%;
+  }
+  &.remi {   
+    bottom: 19%;
+    left: 58.70%;
+    z-index: 0;
+  }
+  &.arnaud {   
+    bottom: 45%;
+    left: 52%;
+  }
+  &.ali {   
+    bottom: 58%;
+    left: 43%;
+  }
+  &.aurelien {   
+    bottom: 20%;
+    left: 45%;
+  }
+  &.sebastien {   
+    bottom: 23%;
+    left: 58%;
+    z-index: 0;
+  }  
+  &.nicolas {   
+    bottom: 92%;
+    left: 46%;
+  }
+
+  &.nicolasT {   
+    bottom: 45%;
+    left: 51%;
+  }
+
+  &.alan {   
+    bottom: 19%;
+    left: 57.5%;
+  } 
+
+  &.hava {   
+    bottom: 20%;
+    left: 46%;
+    z-index: 0;
+  }
+
+  &.kim {   
+    bottom: 48%;
+    left: 52%;
+    z-index: 0;
+  }
+
+  &.andrea {   
+    bottom: 21.5%;
+    left: 55.5%;
+  }
+  &.medhi {   
+    bottom: 35%;
+    left: 37.5%;
+  }
+  &:hover {
+    width: 4.50%;
+    transition: 0.5s;
+  } 
 }
