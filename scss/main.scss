@@ -123,10 +123,10 @@ a {
     z-index: 3;
   }
   &.text {
-  transition: 0s;
-  opacity: 0;
-  width: 0px;
-  font-size: 0px;
+    transition: 0s;
+    opacity: 0;
+    width: 0px;
+    font-size: 0px;
   p {
     margin: 0;
   }
